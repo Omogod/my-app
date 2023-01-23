@@ -11,17 +11,7 @@ function Experience() {
   return (
     <div className="experience">
       <VerticalTimeline lineColor="#3e497a">
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="2008 - 2014"
-          iconStyle={{ background: "#2e497a", color: "#fff" }}
-          icon={<SchoolIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Obey-olise High School, Benin City, Edo State
-          </h3>
-          <p> Senior School Certificate</p>
-        </VerticalTimelineElement>
+
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2015 - 2019"
@@ -40,15 +30,15 @@ function Experience() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2022 - Present"
+          date="2021 - Present"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Junior Full Stack Engineering Intern - Decagon
+            Junior Full Stack Engineer - Decagon
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
-            Benin City, Edo State, Nigeria.
+            Sango-tedo, Lagos, Nigeria.
           </h4>
           <p>Developed/developing frontend and backend projects.</p>
         </VerticalTimelineElement>

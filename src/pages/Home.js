@@ -24,20 +24,19 @@ function Home() {
           <li className="item">
             <h2> Front-End</h2>
             <span>
-              ReactJS, Angular, Redux, HTML, CSS, React Native, Flutter, NPM,
-              Ionic, BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents
+              ReactJS, Redux, HTML, CSS, React Native, BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents
             </span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
             <span>
               NodeJS, ExpressJS, GraphQL,
-              MySQL, MongoDB, MySQL
+              MySQL, MongoDB, PostgresQL
             </span>
           </li>
           <li className="item">
             <h2>Languages</h2>
-            <span>JavaScript, Python, TypeScript </span>
+            <span>JavaScript, Python, TypeScript</span>
           </li>
         </ol>
       </div>
