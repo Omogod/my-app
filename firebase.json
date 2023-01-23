@@ -1,6 +1,7 @@
 {
   "hosting": {
     "public": "build",
+    "site": "godstime-omo-portfolio",
     "ignore": [
       "firebase.json",
       "**/.*",
