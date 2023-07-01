@@ -5,12 +5,18 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-left: -8vh;
   }
+  
   .projects .projectTitle {
     text-align: center;
     color: #3e497a;
     font-size: 60px;
     font-weight: bolder;
+  }
+
+  .title {
+      margin-left: 13vh;
   }
   
   .projectList {
@@ -57,9 +63,16 @@
     }
   }
   
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 900px) {
     .projectList {
       grid-template-columns: 1fr;
+      height: auto;
+      place-items: center;
+      margin-left: 4vh;
+    }
+
+    .projects {
+      margin-left: -2vh;
     }
   }
   

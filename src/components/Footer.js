@@ -14,7 +14,7 @@ function Footer() {
         <a href="https://www.facebook.com/omogod.godstime1/"> <FacebookIcon /></a>
         <a href="https://www.linkedin.com/in/godstime-omoregie-a87aa0183"> <LinkedInIcon /> </a>
       </div>
-      <p> &copy; 2022 OmoGod.com</p>
+      <p> &copy; 2023 godstimeomoregie.com</p>
     </div>
   );
 }

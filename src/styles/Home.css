@@ -2,7 +2,7 @@
     width: 100%;
     align-items: center;
     font-family: "Arial", sans-serif;
-    color: #064221;
+    color: #000000;
   }
   
   .about {
@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #062714;
+    background-color: #000000;
     color: #f0f0f0;
   }
 
@@ -57,7 +57,7 @@
   }
   
   .skills h1 {
-    color: #062714;
+    color: #ea7617;
   }
   
   .skills .list {
@@ -70,6 +70,17 @@
   }
   
   @media only screen and (max-width: 600px) {
+    .pImage {
+      width: 70%;
+      height: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 150px;
+      border: 5px solid #f0f0f0;
+      margin-top: 80px;
+    }
+    
     .about h2 {
       font-size: 40px;
     }
